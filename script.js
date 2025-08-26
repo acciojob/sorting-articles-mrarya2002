@@ -14,7 +14,7 @@
         });
 
         // Display the sorted bands
-        const list = document.querySelector("#band");
+        const list = document.querySelector("#bands");
         sortedBands.forEach((item) => {
             let li = document.createElement("li");
             li.innerText = item;
